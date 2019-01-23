@@ -1,0 +1,20 @@
+---
+# Ansible playbook for a LAMP server.
+#
+# @author Jeff Geerling (2014).
+
+- hosts: virtualboxubuntu1604
+  gather_facts: yes
+
+  vars_files:
+    - vars/main.yml
+
+  roles:
+    - geerlingguy.nfs
+    - geerlingguy.docker
+    - geerlingguy.nfs
+    - geerlingguy.git
+    - gantsign.intellij
+    - gantsign.java
+    - gantsign.maven
+    - cmprescott.chrome

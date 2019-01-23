@@ -1,0 +1,9 @@
+---
+- src: geerlingguy.docker
+- src: geerlingguy.packer-debian
+- src: geerlingguy.nfs
+- src: geerlingguy.git
+- src: gantsign.intellij
+- src: gantsign.java
+- src: gantsign.maven
+- src: cmprescott.chrome
