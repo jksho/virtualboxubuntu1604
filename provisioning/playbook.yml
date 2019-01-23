@@ -12,7 +12,6 @@
   roles:
     - geerlingguy.nfs
     - geerlingguy.docker
-    - geerlingguy.nfs
     - geerlingguy.git
     - gantsign.intellij
     - gantsign.java
