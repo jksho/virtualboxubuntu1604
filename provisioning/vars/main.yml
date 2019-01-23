@@ -1,7 +1,7 @@
 ---
 workspace: /root
 hostname: virtualboxubuntu1604
-ntp_timezone: America/Chicago
+ntp_timezone: America/Los Angeles
 
 apache_enablerepo: remi
 apache_vhosts:
