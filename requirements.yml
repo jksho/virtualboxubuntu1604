@@ -1,6 +1,5 @@
 ---
 - src: geerlingguy.docker
-- src: geerlingguy.packer-debian
 - src: geerlingguy.nfs
 - src: geerlingguy.git
 - src: gantsign.intellij
