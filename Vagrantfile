@@ -16,7 +16,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   config.vm.hostname = "virtualboxubuntu1604"
-  config.vm.network :private_network, ip: "172.16.3.79"
+  config.vm.network :private_network, ip: "172.16.3.80"
 
   # Set the name of the VM. See: http://stackoverflow.com/a/17864388/100134
   config.vm.define :virtualboxubuntu1604 do |virtualboxubuntu1604|
