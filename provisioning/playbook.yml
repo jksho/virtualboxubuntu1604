@@ -28,3 +28,7 @@
         - vim
         - htop
         - tmux
+
+    - name: Upgrade all packages to the latest version
+      apt:
+        upgrade: dist
