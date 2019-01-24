@@ -1,5 +1,5 @@
 ---
-# Ansible playbook for a LAMP server.
+# Ansible playbook for a virtualboxubuntu1604 server.
 #
 # @author Jeff Geerling (2014).
 
@@ -17,3 +17,14 @@
     - gantsign.java
     - gantsign.maven
     - cmprescott.chrome
+  tasks:
+    - name: install base packages 
+      apt:
+        name: "{{ packages }}"
+      vars:
+        packages:  
+        - wget
+        - curl
+        - vim
+        - htop
+        - tmux
