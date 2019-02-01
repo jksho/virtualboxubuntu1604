@@ -1,8 +1,9 @@
 ---
-- src: geerlingguy.docker
 - src: geerlingguy.nfs
 - src: geerlingguy.git
 - src: gantsign.intellij
 - src: gantsign.java
 - src: gantsign.maven
 - src: cmprescott.chrome
+- src: cmprescott.chrome
+- src: angstwad.docker_ubuntu
