@@ -12,11 +12,11 @@
   roles:
     - geerlingguy.nfs
     - geerlingguy.git
+    - geerlingguy.docker
     - gantsign.intellij
     - gantsign.java
     - gantsign.maven
     - cmprescott.chrome
-    - angstwad.docker_ubuntu
   tasks:
     - name: install base packages 
       apt:

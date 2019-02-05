@@ -20,6 +20,7 @@ ENV DEBIAN_FRONTEND noninteractive
 USER beakerx
 
 RUN /bin/bash -c "id && conda env list && source activate beakerx && \
+#     conda update --all && \
      conda install -c r r -y && \
      conda install -c r r-essentials -y && \
      conda install -c r r-irkernel -y && \
