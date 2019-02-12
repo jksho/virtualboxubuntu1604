@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: beakerx-deployment
+  labels:
+    app: beakerx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: beakerx
+  template:
+    metadata:
+      labels:
+        app: beakerx
+    spec:
+      containers:
+      - name: beakerx
+        image: beakerx:latest
+        ports:
+        - containerPort: 8888
